@@ -8,3 +8,23 @@ class Solution {
         return sum*sum;
     }
 }
+
+
+# sum-of-first-n-terms
+
+      public class MyClass {
+        static void sumOfSeries(int i,int sum) {
+
+            if(i==0){
+
+              System.out.print(sum+" ");        
+              return;
+            }
+
+             sumOfSeries(i-1,sum+i);
+
+        }
+        public static void main(String args[]) {
+          sumOfSeries(6,0);
+        }
+    }
