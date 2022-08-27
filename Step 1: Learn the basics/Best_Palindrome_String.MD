@@ -12,7 +12,7 @@
                return 1;
             }
             
-# https://leetcode.com/problems/valid-palindrome/submissions/
+### https://leetcode.com/problems/valid-palindrome/submissions/
 
     static  boolean isPalindrome(String s) {
            
