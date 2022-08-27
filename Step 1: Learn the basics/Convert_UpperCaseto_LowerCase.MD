@@ -9,3 +9,8 @@
         else
             temp += ans.charAt(i);
         }
+
+
+### Remove non-Alphanumeric Characters from string 
+    
+    String ans =s.replaceAll("[^A-Za-z0-9]", "");
